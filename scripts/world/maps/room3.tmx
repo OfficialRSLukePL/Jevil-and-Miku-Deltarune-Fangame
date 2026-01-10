@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="38">
+ <editorsettings>
+  <export target="room3.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../tilesets/bluegrass.tsx"/>
+ <layer id="1" name="Warstwa Kafelków 1" width="32" height="18">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2,3,4,3,4,3,4,3,3,4,3,4,3,4,6,7,3,4,3,11,11,4,3,4,3,4,3,4,3,4,3,5,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,
+16,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,17,18,19
+</data>
+ </layer>
+ <objectgroup color="#7f00ff" id="2" name="markers">
+  <object id="7" name="entry" x="600" y="80">
+   <point/>
+  </object>
+  <object id="37" name="entry1" x="800" y="240">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="3" name="collision">
+  <object id="25" x="-40" y="120" width="40" height="600"/>
+  <object id="28" x="1280" y="120" width="40" height="600"/>
+  <object id="29" x="0" y="720" width="1280" height="40"/>
+  <object id="30" x="0" y="80" width="520" height="40"/>
+  <object id="31" x="520" y="0" width="40" height="120"/>
+  <object id="32" x="640" y="0" width="40" height="120"/>
+  <object id="33" x="680" y="80" width="600" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="4" name="objects">
+  <object id="8" name="transition" x="560" y="-40" width="80" height="40">
+   <properties>
+    <property name="map" value="room1"/>
+    <property name="marker" value="entry1"/>
+   </properties>
+  </object>
+  <object id="9" name="npc" x="200" y="120" width="40" height="40">
+   <properties>
+    <property name="actor" value="gonerstarwalker"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="text1" value="I saw horrors beyond your [color:red]comprehension.[color:reset]"/>
+    <property name="text2" value="H[wait:5] E[wait:15] H[wait:5] A[wait:5] U[wait:5] N[wait:5] T[wait:5] S[wait:15] Y[wait:5] O[wait:5] U[wait:5]."/>
+   </properties>
+  </object>
+  <object id="10" name="npc" x="280" y="120" width="40" height="40">
+   <properties>
+    <property name="actor" value="starwalker"/>
+    <property name="text1" value="* I'm not even [color:yellow]Pissed[color:reset] off."/>
+    <property name="text2" value="* I'm just terrified by what he meant."/>
+   </properties>
+  </object>
+  <object id="35" name="transition" x="760" y="120" width="80" height="40">
+   <properties>
+    <property name="map" value="casinomain"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

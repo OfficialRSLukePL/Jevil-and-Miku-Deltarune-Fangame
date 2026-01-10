@@ -1,0 +1,41 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/room1.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "maps/room2.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 760,
+            "y": 40
+        },
+        {
+            "fileName": "maps/room3.tmx",
+            "height": 720,
+            "width": 1280,
+            "x": -283,
+            "y": 593
+        },
+        {
+            "fileName": "maps/room4.tmx",
+            "height": 1200,
+            "width": 640,
+            "x": 0,
+            "y": -1320
+        },
+        {
+            "fileName": "maps/room5.tmx",
+            "height": 1200,
+            "width": 1200,
+            "x": 1520,
+            "y": 120
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

@@ -1,0 +1,503 @@
+return {
+  version = "1.11",
+  luaversion = "5.1",
+  tiledversion = "1.11.2",
+  class = "",
+  orientation = "orthogonal",
+  renderorder = "right-down",
+  width = 16,
+  height = 12,
+  tilewidth = 40,
+  tileheight = 40,
+  nextlayerid = 5,
+  nextobjectid = 61,
+  properties = {
+    ["light"] = false,
+    ["music"] = "TheWrongLegend",
+    ["name"] = "Beyond"
+  },
+  tilesets = {
+    {
+      name = "bluegrass",
+      firstgid = 1,
+      filename = "../tilesets/bluegrass.tsx",
+      exportfilename = "../tilesets/bluegrass.lua"
+    }
+  },
+  layers = {
+    {
+      type = "tilelayer",
+      x = 0,
+      y = 0,
+      width = 16,
+      height = 12,
+      id = 1,
+      name = "Warstwa Kafelków 1",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      encoding = "lua",
+      data = {
+        1, 1, 1, 1, 1, 2, 3, 4, 3, 4, 5, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 9, 10, 10, 10, 10, 12, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 9, 10, 10, 10, 10, 12, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 16, 17, 13, 14, 18, 19, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 9, 12, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 9, 12, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 8, 1, 1, 2, 6, 7, 5, 1, 1, 1, 1, 1, 1,
+        3, 4, 3, 4, 3, 4, 6, 10, 10, 7, 3, 4, 3, 4, 3, 4,
+        17, 18, 17, 18, 17, 18, 13, 10, 10, 14, 17, 18, 17, 18, 17, 18,
+        1, 1, 1, 1, 1, 1, 16, 8, 14, 19, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 9, 12, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 9, 12, 1, 1, 1, 1, 1, 1, 1
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 2,
+      name = "markers",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 29,
+          name = "spawn",
+          type = "",
+          shape = "point",
+          x = 320,
+          y = 320,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 39,
+          name = "entry",
+          type = "",
+          shape = "point",
+          x = 600,
+          y = 320,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 46,
+          name = "entry1",
+          type = "",
+          shape = "point",
+          x = 320,
+          y = 440,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 50,
+          name = "entry2",
+          type = "",
+          shape = "point",
+          x = 320,
+          y = 80,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 3,
+      name = "collision",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 6,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 440,
+          y = 0,
+          width = 40,
+          height = 160,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 7,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 360,
+          y = 160,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 8,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 360,
+          y = 200,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 9,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 400,
+          y = 240,
+          width = 240,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 10,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 400,
+          y = 360,
+          width = 240,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 11,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 360,
+          y = 400,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 12,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 240,
+          y = 400,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 15,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 360,
+          width = 240,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 16,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 240,
+          width = 240,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 18,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 240,
+          y = 200,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 19,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 200,
+          y = 160,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 20,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 160,
+          y = 0,
+          width = 40,
+          height = 160,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 51,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 200,
+          y = -40,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 52,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 360,
+          y = -40,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 56,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = -40,
+          y = 280,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 4,
+      name = "objects",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 27,
+          name = "chest",
+          type = "",
+          shape = "point",
+          x = 406.667,
+          y = 61.3333,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["money"] = 999
+          }
+        },
+        {
+          id = 35,
+          name = "interactable",
+          type = "",
+          shape = "rectangle",
+          x = 120,
+          y = 240,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "<-- Shop!"
+          }
+        },
+        {
+          id = 37,
+          name = "savepoint",
+          type = "",
+          shape = "rectangle",
+          x = 360,
+          y = 360,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 41,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 640,
+          y = 280,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "room2",
+            ["marker"] = "entry"
+          }
+        },
+        {
+          id = 42,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 280,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["shop"] = "tree"
+          }
+        },
+        {
+          id = 47,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 480,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "room3",
+            ["marker"] = "entry"
+          }
+        },
+        {
+          id = 53,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = -40,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "room4",
+            ["marker"] = "entry"
+          }
+        },
+        {
+          id = 57,
+          name = "hugetree",
+          type = "",
+          shape = "point",
+          x = 0,
+          y = 320,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 59,
+          name = "squeak",
+          type = "",
+          shape = "rectangle",
+          x = 240,
+          y = 240,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 60,
+          name = "interactable",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 360,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "casino area is down there. Go to red boxes."
+          }
+        }
+      }
+    }
+  }
+}
