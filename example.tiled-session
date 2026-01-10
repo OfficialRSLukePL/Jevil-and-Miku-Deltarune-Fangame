@@ -1,0 +1,444 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "scripts/world/maps/room5.tmx",
+    "expandedProjectPaths": [
+        "scripts/world/maps",
+        "scripts/world",
+        "scripts/world/tilesets"
+    ],
+    "file.lastUsedOpenFilter": "Wszystkie pliki (*)",
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/deltaleaf/scripts/world/maps/hometown/torielhouse/kris_room/kris_room.tmx": {
+            "scale": 1.3893749999999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 273.144399460189,
+                "y": 240.03598740440853
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/deltaleaf/scripts/world/tilesets/hometownobjects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.0625
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/example-mod/scripts/world/maps/room1.tmx": {
+            "expandedObjectLayers": [
+                5,
+                3,
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 400.66666666666674,
+                "y": 480.66666666666674
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/example-mod/scripts/world/maps/room2.tmx": {
+            "expandedObjectLayers": [
+                5,
+                3,
+                4
+            ],
+            "scale": 1.1115,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 256.8600989653621,
+                "y": 239.76608187134502
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/example-mod/scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/libraries/hometown_library/scripts/world/tilesets/hometownobjects.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/basket/basket.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 692,
+                "y": 645
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/boat/kichen/kichen.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 585.3333333333333,
+                "y": 274.99999999999994
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/boat/mainHall/mainHall.tmx": {
+            "scale": 0.5468918918918919,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 464.4427971336793,
+                "y": 911.5147022485792
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/boat/roomsHallway/roomsHallway.tmx": {
+            "expandedGroupLayers": [
+                17
+            ],
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 1627,
+                "y": 328.5
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/boat/roomsHallway/roomsHallwaystupid.tmx": {
+            "expandedGroupLayers": [
+                17
+            ],
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 711,
+                "y": 289.5
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/gateway/chase_spiral/chase_spiral.tmx": {
+            "expandedObjectLayers": [
+                8
+            ],
+            "scale": 0.75,
+            "selectedLayer": 11,
+            "viewCenter": {
+                "x": 555.9999999999999,
+                "y": 504.6666666666667
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/sans_fixed/sans_fixed.tmx": {
+            "scale": 0.4244021739130434,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 954.2835190165194,
+                "y": 267.4350108848765
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/shelter/awakening.tmx": {
+            "scale": 0.8971022727272727,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 556.2353537272785,
+                "y": 518.892900120337
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/shelter/coreleadup.tmx": {
+            "scale": 0.5951470588235294,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 399.90116135408954,
+                "y": 679.6639486039043
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/sleeping_world/funny.tmx": {
+            "scale": 1.096458333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 360.2508075242258,
+                "y": 280.44841345240366
+            }
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/battleborder.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/boatobjects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/depthstiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/gateway.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/schooltiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/sleeping_world/props.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/tenna_encounter_leadup.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/tilesets/ChaosCardle.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "scripts/world/maps/cardle.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 600.5,
+                "y": 600
+            }
+        },
+        "scripts/world/maps/cartle1.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 632.3333333333333,
+                "y": 923.6666666666666
+            }
+        },
+        "scripts/world/maps/casinobattle.tmx": {
+            "scale": 1.233515625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 351.8398885299893,
+                "y": 239.55918677560328
+            }
+        },
+        "scripts/world/maps/casinomain.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 400.3333333333333,
+                "y": 280
+            }
+        },
+        "scripts/world/maps/chaoscartle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "scripts/world/maps/enemyroom.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 600.5,
+                "y": 600
+            }
+        },
+        "scripts/world/maps/finalkrissroom.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                2
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 477.5,
+                "y": 346.25
+            }
+        },
+        "scripts/world/maps/jevilcastle/cartle1.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 765.5,
+                "y": 961.5
+            }
+        },
+        "scripts/world/maps/krisroom.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.5,
+                "y": 239.5
+            }
+        },
+        "scripts/world/maps/krisroom2.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.66666666666663,
+                "y": 119.66666666666663
+            }
+        },
+        "scripts/world/maps/krisroomv.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4
+            ],
+            "scale": 1.3893749999999998,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 306.9725596041386,
+                "y": 219.16329284750344
+            }
+        },
+        "scripts/world/maps/room1.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 320.25,
+                "y": 240
+            }
+        },
+        "scripts/world/maps/room2.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 320.33333333333337,
+                "y": 240
+            }
+        },
+        "scripts/world/maps/room3.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 640.3333333333333,
+                "y": 360
+            }
+        },
+        "scripts/world/maps/room4.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2,
+                4
+            ],
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 319,
+                "y": 600
+            }
+        },
+        "scripts/world/maps/room5.tmx": {
+            "expandedObjectLayers": [
+                3,
+                5,
+                2,
+                4
+            ],
+            "scale": 0.0625,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 600,
+                "y": 592
+            }
+        },
+        "scripts/world/tilesets/ChaosCardle.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 5.5
+        },
+        "scripts/world/tilesets/bluegrass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/tilesets/cardchaos.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "scripts/world/tilesets/casinobattle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "scripts/world/tilesets/casinomain.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 3
+        },
+        "scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        },
+        "scripts/world/tilesets/finalkrisroomplsworkthistime.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "scripts/world/tilesets/krisroom.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1.5
+        },
+        "scripts/world/tilesets/krisroom1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/boat/kichen",
+    "last.externalTilesetPath": "C:/Users/dell/AppData/Roaming/kristal/mods/VsJevilnMiku/scripts/world/tilesets",
+    "last.imagePath": "C:/Users/dell/AppData/Roaming/kristal/mods/VsJevilnMiku/assets/sprites/tilesets",
+    "lastUsedTilesetExportFilter": "Pliki Lua (*.lua)",
+    "loadedWorlds": [
+        "C:/Users/dell/AppData/Roaming/kristal/mods/VsJevilnMiku/scripts/world/example.world"
+    ],
+    "map.height": 14,
+    "map.lastUsedExportFilter": "Pliki Lua (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 40,
+    "map.tileWidth": 40,
+    "map.width": 20,
+    "openFiles": [
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/room3.tmx",
+        "scripts/world/maps/room4.tmx",
+        "scripts/world/maps/enemyroom.tmx",
+        "scripts/world/maps/room5.tmx",
+        "scripts/world/maps/cardle.tmx",
+        "scripts/world/maps/casinomain.tmx"
+    ],
+    "project": "example.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/room3.tmx",
+        "scripts/world/maps/room4.tmx",
+        "scripts/world/maps/enemyroom.tmx",
+        "scripts/world/maps/casinomain.tmx",
+        "scripts/world/maps/cardle.tmx",
+        "scripts/world/maps/room5.tmx",
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/maps/gateway/chase_spiral/chase_spiral.tmx",
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/gateway.tsx",
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/schooltiles.tsx",
+        "C:/Users/dell/AppData/Roaming/kristal/mods/main/scripts/world/tilesets/tenna_encounter_leadup.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 20,
+        "width": 20
+    }
+}

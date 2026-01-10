@@ -1,0 +1,17 @@
+{
+    "id": "JEMIKU",
+    "name": "Vs Jevil and Miku",
+    "subtitle": "HATSUNE MIKU?!",
+
+    "version": "v0.0.7",
+    "engineVer": "v0.9.0",
+
+    "chapter": 2,
+
+    "map": "finalkrissroom",
+    "party": ["kris"],
+    "inventory": {
+        "items": ["darkburger", "darkburger"],
+        "key_items": ["cell_phone"]
+    }
+}
