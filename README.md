@@ -1,7 +1,7 @@
 # Jevil-and-Miku-Deltarune-Fangame
 I am making a fangame of Deltarune using Kristal Engine.
 
-The current version contains:
+The current version (0.0.7) contains:
 1. 3 early concept of an area
 2. 2 types of enemies
 - Retlutte
